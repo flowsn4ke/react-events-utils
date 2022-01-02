@@ -1,10 +1,27 @@
 {
-  "name": "react-events",
   "version": "0.1.0",
+  "name": "react-events",
   "description": "Utilities and hooks for using events in react",
-  "main": "index.js",
+  "keywords": [
+    "react",
+    "events",
+    "hooks"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "source": "src/index.js",
   "repository": "https://github.com/flowsn4ke/react-events",
   "author": "flowsn4ke",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "microbundle-crl --format modern,cjs && rm dist/*.map"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "microbundle-crl": "^0.13.11"
+  }
 }
