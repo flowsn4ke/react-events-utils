@@ -17,6 +17,7 @@ import { useEvent } from "react-events-utils"
 
 function SomeComponent () {
   const target = useRef(null)
+  
   useEvent(target, 'click', e => {
     console.log(e)
     doSomething()
@@ -25,8 +26,7 @@ function SomeComponent () {
   return <div ref={target}>I am the target.</div>
 }
 ```
-
-Alternatively, you can pass `document`, `window`, `document.getElementById("foo")` etc. You get the gist.
+Alternatively, you can pass `document`, `window`, or any valid DOM node.
 
 ## useEventOnce
 
