@@ -1,0 +1,10 @@
+{
+  "name": "react-events",
+  "version": "0.1.0",
+  "description": "Utilities and hooks for using events in react",
+  "main": "index.js",
+  "repository": "https://github.com/flowsn4ke/react-events",
+  "author": "flowsn4ke",
+  "license": "MIT",
+  "private": false
+}
