@@ -10,7 +10,7 @@
   "type": "module",
   "main": "dist/index.js",
   "source": "src/index.js",
-  "repository": "https://github.com/flowsn4ke/react-events",
+  "repository": "https://github.com/flowsn4ke/react-events-utils",
   "author": "flowsn4ke",
   "license": "MIT",
   "private": false,
