@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "react-events-hooks",
+  "name": "react-events-utils",
   "description": "Utilities and hooks for using events in react",
   "keywords": [
     "react",
