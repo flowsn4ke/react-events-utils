@@ -3,10 +3,10 @@ import { off, on } from "../events"
 
 export default function useEvent(target, event, handler) {
   useEffect(() => {
-    target = target && 'current' in target ? target.current : target
-    if (!target) return
+    const targetEl = target && 'current' in target ? target.current : target
+    if (!targetEl) return
 
-    on(target, event, handler)
-    return () => off(target, event, handler)
-  }, [event, target])
+    on(targetEl, event, handler)
+    return () => off(targetEl, event, handler)
+  }, [event, target, handler])
 }
