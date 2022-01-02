@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { off, once } from "./events"
+import { off, once } from "../events"
 
 export default function useEventOnce(target, event, handler) {
   useEffect(() => {
