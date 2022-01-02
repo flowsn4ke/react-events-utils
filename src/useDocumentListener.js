@@ -1,5 +1,5 @@
-import useEventListener from "./useEvent"
+import useEvent from "./useEvent"
 
 export default function useDocumentListener(event, handler) {
-  useEventListener(document, event, handler)
+  useEvent(document, event, handler)
 }
