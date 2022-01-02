@@ -1,8 +1,8 @@
 import { on, once, off, trigger } from "./events"
-import useEvent from "./useEvent"
-import useEventOnce from "./useEventOnce"
-import useDocumentListener from "./useDocumentListener"
-import useDocumentListenerOnce from "./useDocumentListenerOnce"
+import useEvent from "./hooks/useEvent"
+import useEventOnce from "./hooks/useEventOnce"
+import useDocumentListener from "./hooks/useDocumentListener"
+import useDocumentListenerOnce from "./hooks/useDocumentListenerOnce"
 
 export {
   on,
