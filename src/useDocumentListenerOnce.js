@@ -1,9 +1,5 @@
-import { useEffect } from "react"
-import { off, once } from "./events"
+import useEventOnce from "./useEventOnce"
 
 export default function useDocumentListenerOnce(event, handler) {
-  useEffect(() => {
-    once(event, handler)
-    return () => off(event, handler)
-  }, [event])
+  useEventOnce(document, event, handler)
 };

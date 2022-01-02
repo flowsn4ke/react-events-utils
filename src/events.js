@@ -1,13 +1,13 @@
-function on(eventType, listener) {
-  document.addEventListener(eventType, listener)
+function on(target, eventType, listener) {
+  target.addEventListener(eventType, listener)
 }
 
-function off(eventType, listener) {
-  document.removeEventListener(eventType, listener)
+function off(target, eventType, listener) {
+  target.removeEventListener(eventType, listener)
 }
 
-function once(eventType, listener) {
-  document.addEventListener(eventType, listener, { once: true })
+function once(target, eventType, listener) {
+  target.addEventListener(eventType, listener, { once: true })
 }
 
 function trigger(eventType, data) {
