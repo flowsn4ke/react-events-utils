@@ -1,5 +1,5 @@
 {
-  "version": "0.1.8",
+  "version": "0.1.9",
   "name": "react-events-utils",
   "description": "Utilities and hooks for using events in react",
   "keywords": [
@@ -7,7 +7,6 @@
     "events",
     "hooks"
   ],
-  "type": "module",
   "main": "dist/index.js",
   "source": "src/index.js",
   "repository": "https://github.com/flowsn4ke/react-events-utils",
